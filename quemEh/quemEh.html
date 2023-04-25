@@ -1,0 +1,10 @@
+<template>
+    <lightning-card class="central">
+        <div class="slds-m-around_medium">
+            <h1>Quem é esse Pokemão?</h1>
+            <img id="pokemao" src={linkPoke} alt="poke"/>
+            <p class="revelado">{richtext}</p>
+        </div>
+        <lightning-button variant="brand" label="Revela" title="Primary action" onclick={revelar} class="slds-m-left_x-small"></lightning-button>
+    </lightning-card>
+</template>
