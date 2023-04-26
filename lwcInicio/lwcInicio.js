@@ -7,7 +7,7 @@ export default class lwcInicio extends LightningElement {
 
     produto = "Produto X";
     descricao = "Aquele lá";
-    preço = "49.99";
+    preco = "49.99";
 
     promocao = "Só hoje";
     oferta1 = "2 por 89.99";
